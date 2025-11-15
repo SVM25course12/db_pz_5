@@ -12,13 +12,9 @@
 > **ВАЖНО**: в файле `main.py` указан импорт:  
 > ```python
 > from main import get_product_by_barcode, search_products, extract_kcal
+> Без этого графическое приложение не запустится
 > ```
-> Но функции на самом деле находятся в `off_rest_example.py`.  
-> Чтобы приложение запустилось, **переименуйте** `off_rest_example.py` → `main.py`,  
-> **ИЛИ** измените импорт в `main.py` на:
-> ```python
-> from off_rest_example import get_product_by_barcode, search_products, extract_kcal
-> ```
+
 
 ## Функционал
 
@@ -48,5 +44,4 @@
 - Библиотеки: `requests`, `PyQt6`
 
 Установка:
-```bash
-pip install requests PyQt6
+```bash: pip install requests PyQt6
